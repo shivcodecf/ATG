@@ -272,6 +272,12 @@ height:710px;
   margin-left: 12px;
   border-radius: 8px;
   background: white;
+  border: none;
+  
+}  
+.text-field:hover{
+  
+  border: none;
   
 } 
 .sign-field-text{
@@ -500,7 +506,7 @@ opacity: 0px;
 } 
 .add-own-content{
   margin-left: 150px;
-  margin-top:15px;
+  margin-top:25px;
 } 
 .add-own-btn button{
   margin-left:150px;
@@ -531,7 +537,7 @@ opacity: 0px;
   background-color: #F7F5F9;
   width:1240px;
   
-  margin-left:150px;
+  margin-left:120px;
   text-align: center;
   padding-right:130px;
 } 
@@ -680,6 +686,9 @@ margin-top: 5px;
 .join{
   height:500px;
 } 
+.sign{
+  height:500px;
+}
 .cont-btn1{
   margin-top:28px;
 } 
@@ -714,6 +723,9 @@ margin-top: 5px;
 } 
 .btn-1{
   color:white;
+} 
+.visible{
+  display: none;
 }
 /* Media query for responsiveness */ 
 @media (max-width: 1182px) {
@@ -747,6 +759,7 @@ margin-top: 5px;
   
     width:400px;
    
+   
     
   }  
   .hero-main-img {
@@ -769,8 +782,9 @@ margin-right: -200px;
 }   
  .add-grand-own{
   
-  margin-left:250px;
+  margin-left:180px;
   width:610px;
+  margin-top:200px;
   
   
 }  
@@ -794,7 +808,24 @@ margin-right: -200px;
 } 
 .content-para{
   font-size: 40px;;
+} 
+.container-fluid{
+  display:none;
+}  
+.dropdown{
+  display: none;
+} 
+.exp {
+  display: none;
+} 
+.no-visible{
+  display: none;
 }
+.visible{
+  display: block;
+} 
+
+
 
 
 
